@@ -42,7 +42,7 @@ h3 {
   width: 25px;
   height: 25px;
   background-color: white;
-  border: 1px solid #555;
+  border: 2px solid #555;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -51,17 +51,20 @@ h3 {
   width: 25px;
   height: 25px;
   background-color: white;
-  border: 1px solid #555;
+  border: 2px solid #555;
   border-radius: 100%;
   cursor: pointer;
 }
 
 .output {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: -7vmin;
-  left: 50%;
+  left: 40%;
   font-size: 3vmin;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   background-color: white;
   width: 20%;
   text-align: center;
